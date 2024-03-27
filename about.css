@@ -1,0 +1,11 @@
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10vw;
+}
+.aboutus p{
+    font-weight: 400;
+    
+}
