@@ -2,6 +2,9 @@
 
 /* sapgreen-: #008080
  lightblue: #0d6efd*/
+ html{
+    overflow-x: hidden;
+ }
 
 *{
     font-family: "Spinnaker", sans-serif;

@@ -1,11 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Spinnaker&display=swap');
+
+*{
+    font-family: "Spinnaker", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    /* background-color: blueviolet; */
+}
 .aboutus{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 10vw;
+    /* padding: 20px 10vw; */
+    padding: 20px 55px;
 }
 .aboutus p{
     font-weight: 400;
     
+}
+.container1{
+    margin-top: 60px;
+    display: flex;
+    margin-bottom: 80px;
+}
+.content-1{
+    line-height: 1.8rem;
+    text-align: center;
+    color: rgb(6, 16, 77);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.image1{
+    width: 750px;
+}
+.container2{
+    margin-top: 60px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.content-2{
+    line-height: 1.8rem;
+    text-align: center;
+    color: rgb(6, 16, 77);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.image2{
+    width: 750px;
+}
+.container3{
+    margin-top: 100px;
+    display: flex;
+}
+.content-3{
+    line-height: 1.8rem;
+    text-align: center;
+    color: rgb(6, 16, 77);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.image3{
+    width: 700px;
+}
+footer{
+    background-color: #008080;
+    /* height: 80px; */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin: 30px 0px; */
+    border-top: 2px solid rgb(149, 149, 10);;
+}
+.foot-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 10px;
+    margin-top: 40pxx;
+    
+}
+.foot-up{
+    padding: 30px;
+}
+/* .foot-left h2{
+    font-weight: 400;
+    font-family: 'kode+Mono';
+} */
+.foot-right{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    width: 20vw;
+}
+.contactus{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+}
+.contactus .logo img{
+    height: 6vw;
+}
+#mail{
+    margin-bottom: 40px;
+}
+.links h3{
+    margin-bottom: 15px;
+}
+#details p{
+    margin-bottom: 15px;
+}
+.fa-brands{
+    font-size: 3rem;
+}
+.fa-solid{
+    font-size: 3rem;
+}
+.h-full{
+    font-size: 3rem;
+}
+.copyright{
+    margin-top: 40px;
+    text-align: center;
 }
