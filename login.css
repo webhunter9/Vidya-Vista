@@ -112,17 +112,6 @@ ul li{
   align-items: center;
   justify-content: center;
 }
-.cover .text .text-1,
-.cover .text .text-2{
-  font-size: 26px;
-  font-weight: 600;
-  color: #fff;
-  text-align: center;
-}
-.cover .text .text-2{
-  font-size: 15px;
-  font-weight: 500;
-}
 .container .forms{
   height: 100%;
   width: 100%;
@@ -268,4 +257,18 @@ footer{
 .copyright{
   text-align: center;
   color: rgb(4, 14, 35);
+}
+.button-input-box a{
+  border: 1px solid;
+  background-color: #14a3a3;
+  border-radius: 6px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.button-input-box a:hover{
+  background: #067272;
 }
