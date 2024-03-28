@@ -150,3 +150,6 @@ footer{
   #doc{
     color: rgb(27, 25, 1);
   }
+  .foot-links li a:hover{
+    color: white;
+  }

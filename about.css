@@ -104,3 +104,6 @@ footer{
     text-align: center;
     color: rgb(4, 14, 35);
 }
+.foot-links li a:hover{
+    color: white;
+}
